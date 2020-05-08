@@ -1,4 +1,4 @@
-const NUM_SQUARES = 100
+const NUM_SQUARES = 20
 const MAX_SPEED = 1.5
 const MIN_SIZE = 50
 const MAX_SIZE = 100
@@ -29,7 +29,7 @@ function setup() {
 }
 
 function draw() {
-  background(0)
+  //background(0)
   for (let i = 0; i < NUM_SQUARES; i++) {
     drawOverlaps(i)
 
